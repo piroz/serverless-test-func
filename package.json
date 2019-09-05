@@ -4,6 +4,7 @@
   "description": "deply test lamda function with serverless framework",
   "main": "index.js",
   "scripts": {
+    "start": "sls offline start",
     "deploy": "sls deploy"
   },
   "keywords": [
@@ -12,6 +13,7 @@
   "author": "piroz",
   "license": "MIT",
   "devDependencies": {
-    "serverless": "^1.51.0"
+    "serverless": "^1.51.0",
+    "serverless-offline": "^5.10.1"
   }
 }

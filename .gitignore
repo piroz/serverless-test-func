@@ -42,3 +42,7 @@ admin.env
 .env
 _meta
 .serverless
+
+# python
+
+__pycache__/
