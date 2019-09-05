@@ -1,0 +1,17 @@
+{
+  "name": "serverless-test-func",
+  "version": "1.0.0",
+  "description": "deply test lamda function with serverless framework",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "sls deploy"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "author": "piroz",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^1.51.0"
+  }
+}

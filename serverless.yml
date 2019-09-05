@@ -1,0 +1,18 @@
+service: serverless-test-func
+provider:
+  name: aws
+  runtime: python3.6
+  region: ap-northeast-1
+  timeout: 30
+  memorySize: 128
+
+package:
+  individually: true
+
+functions:
+  test-func:
+    handler: lambda/test-func/handler.main
+    events:
+      - http:
+          path: /
+          method: get
