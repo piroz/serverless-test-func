@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "sls offline start",
-    "deploy": "sls deploy"
+    "deploy": "sls deploy",
+    "deploy:test-func": "sls deploy function -f test-func",
+    "remove": "sls remove"
   },
   "keywords": [
     "serverless"
